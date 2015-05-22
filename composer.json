@@ -1,0 +1,21 @@
+{
+    "name": "ondrakoupil/testing-utils",
+    "description": "Some testing utilities",
+    "require-dev": {
+        "nette/tester": "^1.4",
+		"ondrakoupil/tools": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ondřej Koupil",
+            "email": "koupil@optimato.cz"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "OndraKoupil\\Testing\\": "src/"
+        }
+    }
+}
