@@ -3,7 +3,7 @@
     "description": "Some testing utilities",
     "require-dev": {
         "nette/tester": "^1.4",
-		"ondrakoupil/tools": "*"
+		"ondrakoupil/tools": ">=0.0.1"
     },
     "license": "MIT",
     "authors": [
@@ -17,5 +17,11 @@
         "psr-4": {
             "OndraKoupil\\Testing\\": "src/"
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/ondrakoupil/tools"
+        }
+    ]    
 }
