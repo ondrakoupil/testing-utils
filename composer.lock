@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "22a3147bcade4adb5cc8af3f4a668623",
+    "hash": "3af4089b5261935695908216588d0283",
     "packages": [
         {
             "name": "nette/tester",
@@ -64,21 +64,21 @@
         },
         {
             "name": "ondrakoupil/tools",
-            "version": "v0.0.2",
+            "version": "v0.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ondrakoupil/tools.git",
-                "reference": "d0f7ad54b333e3cdfad0088052ae80d470db5494"
+                "reference": "81ea2126a25eef9b721da316d4975e27f5d26825"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ondrakoupil/tools/zipball/d0f7ad54b333e3cdfad0088052ae80d470db5494",
-                "reference": "d0f7ad54b333e3cdfad0088052ae80d470db5494",
+                "url": "https://api.github.com/repos/ondrakoupil/tools/zipball/81ea2126a25eef9b721da316d4975e27f5d26825",
+                "reference": "81ea2126a25eef9b721da316d4975e27f5d26825",
                 "shasum": ""
             },
             "require-dev": {
                 "nette/tester": "^1.4@dev",
-                "ondrakoupil/testing-utils": "dev-master"
+                "ondrakoupil/testing-utils": "^0.0.5"
             },
             "type": "library",
             "autoload": {
@@ -86,6 +86,7 @@
                     "OndraKoupil\\Tools\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -96,11 +97,7 @@
                 }
             ],
             "description": "Just a bunch of tools for myself",
-            "support": {
-                "source": "https://github.com/ondrakoupil/tools/tree/master",
-                "issues": "https://github.com/ondrakoupil/tools/issues"
-            },
-            "time": "2015-05-29 06:59:31"
+            "time": "2015-05-29 09:06:25"
         }
     ],
     "packages-dev": [],
