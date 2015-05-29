@@ -12,19 +12,13 @@
     ],
     "require": {
         "nette/tester": "^1.4",
-		"ondrakoupil/tools": "^0.0.2"
+		"ondrakoupil/tools": "^0.0.3"
 	},
     "autoload": {
         "psr-4": {
             "OndraKoupil\\Testing\\": "src/"
         }
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/ondrakoupil/tools"
-        }
-    ],
 	"suggest": {
 		"nette/database": "For creating tests with Nette Database using NetteDatabaseTestCase"
 	}
