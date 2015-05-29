@@ -2,8 +2,6 @@
     "name": "ondrakoupil/testing-utils",
     "description": "Some testing utilities",
     "require-dev": {
-        "nette/tester": "^1.4",
-		"ondrakoupil/tools": ">=0.0.1"
     },
     "license": "MIT",
     "authors": [
@@ -12,7 +10,10 @@
             "email": "koupil@optimato.cz"
         }
     ],
-    "require": {},
+    "require": {
+        "nette/tester": "^1.4",
+		"ondrakoupil/tools": "^0.0.1"
+	},
     "autoload": {
         "psr-4": {
             "OndraKoupil\\Testing\\": "src/"
@@ -23,5 +24,8 @@
             "type": "vcs",
             "url": "https://github.com/ondrakoupil/tools"
         }
-    ]    
+    ],
+	"suggest": {
+		"nette/database": "For creating tests with Nette Database using NetteDatabaseTestCase"
+	}
 }

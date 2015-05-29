@@ -4,49 +4,8 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "53eef2e0c0cb817393fba0c8e9a48732",
-    "packages": [],
-    "packages-dev": [
-        {
-            "name": "OndraKoupil/Tools",
-            "version": "v0.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ondrakoupil/tools.git",
-                "reference": "eb979bc11877e18af64fdeb291c3db6ded3deb3d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ondrakoupil/tools/zipball/eb979bc11877e18af64fdeb291c3db6ded3deb3d",
-                "reference": "eb979bc11877e18af64fdeb291c3db6ded3deb3d",
-                "shasum": ""
-            },
-            "require-dev": {
-                "nette/tester": "^1.4@dev",
-                "ondrakoupil/testing-utils": "dev-master"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "OndraKoupil\\Tools\\": "src/"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Ondřej Koupil",
-                    "email": "koupil@optimato.cz"
-                }
-            ],
-            "description": "Just a bunch of tools for myself",
-            "support": {
-                "source": "https://github.com/ondrakoupil/tools/tree/v0.0.1",
-                "issues": "https://github.com/ondrakoupil/tools/issues"
-            },
-            "time": "2015-05-22 09:04:53"
-        },
+    "hash": "103b968dec010292ed975873ad469a16",
+    "packages": [
         {
             "name": "nette/tester",
             "version": "v1.4.0",
@@ -102,8 +61,49 @@
                 "unit"
             ],
             "time": "2015-03-27 14:19:31"
+        },
+        {
+            "name": "ondrakoupil/tools",
+            "version": "v0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ondrakoupil/tools.git",
+                "reference": "eb979bc11877e18af64fdeb291c3db6ded3deb3d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ondrakoupil/tools/zipball/eb979bc11877e18af64fdeb291c3db6ded3deb3d",
+                "reference": "eb979bc11877e18af64fdeb291c3db6ded3deb3d",
+                "shasum": ""
+            },
+            "require-dev": {
+                "nette/tester": "^1.4@dev",
+                "ondrakoupil/testing-utils": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "OndraKoupil\\Tools\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ondřej Koupil",
+                    "email": "koupil@optimato.cz"
+                }
+            ],
+            "description": "Just a bunch of tools for myself",
+            "support": {
+                "source": "https://github.com/ondrakoupil/tools/tree/v0.0.1",
+                "issues": "https://github.com/ondrakoupil/tools/issues"
+            },
+            "time": "2015-05-22 09:04:53"
         }
     ],
+    "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": [],
